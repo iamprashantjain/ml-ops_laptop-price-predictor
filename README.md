@@ -27,3 +27,17 @@ git push -u origin main  push the changes to git
 9.	All the new folders & code development will be done inside that folder 
 
 10.	Now – “git add .”, check status “git status”, “git commit -m ‘updated setup file & created src folder’” & lastly push it to github repo “git push -u origin main”
+
+11.	Create a new folder “components” inside src folder & new file inside components “__init__.py” this will be all the modules of the project.. like data ingestion (reading data), data transformation (like applying OHE etc), model_trainer (to train, evaluate model, r2 score etc)
+
+12.	Create another folder inside src folder “pipeline” & a file inside pipeline folder “train_pipeline.py” which will be used to call all the modules in components folder, predict_pipeline.py for making predictions & also “__init__.py” to import this folder
+
+13.	Since entire project implementation will be inside src folder.. so create 3 files:
+logger.py – for logging
+exception.py – for exception handling, write custom exceptions
+utils.py – for basic helper utilities
+
+14.	Now push to github repo
+git add ., git status, git commit -m “updated logger, exception & utils files”, git push -u origin main
+
+(if getting error then try “git pull” & then push again) 
