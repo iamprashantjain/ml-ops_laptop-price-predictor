@@ -9,10 +9,10 @@ venv\Scripts\activate
 
 git init  initialize an empty repo on git
 git add README.md  create a description file in local system & add in git repo
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/iamprashantjain/ml-ops_laptop-price-predictor.git
-git push -u origin main
+git commit -m "first commit"  commit the README.md file
+git branch -M main  change branch to main before pushing what you’ve commited
+git remote add origin https://github.com/iamprashantjain/ml-ops_laptop-price-predictor.git --> add the address of the repo where its needed to be pushed
+git push -u origin main  push the changes to git
 
 4.	
 
