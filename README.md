@@ -26,4 +26,4 @@ git push -u origin main  push the changes to git
 
 9.	All the new folders & code development will be done inside that folder 
 
-10.	Now – “git add .”, check status “git status”, “git commit -m ‘updated setup file & created src folder’” & lastly push it to github repo “git push -u progona main”
+10.	Now – “git add .”, check status “git status”, “git commit -m ‘updated setup file & created src folder’” & lastly push it to github repo “git push -u origin main”
