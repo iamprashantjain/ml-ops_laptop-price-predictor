@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mlops_project
+Version: 0.1
+Author: Prashant J
+Author-email: iamprashantjain2601@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn

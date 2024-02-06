@@ -14,5 +14,5 @@ git branch -M main  change branch to main before pushing what you’ve commit
 git remote add origin https://github.com/iamprashantjain/ml-ops_laptop-price-predictor.git --> add the address of the repo where its needed to be pushed
 git push -u origin main  push the changes to git
 
-4.	
+4. 
 
